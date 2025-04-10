@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: url("queue\ forest.png");
+    background-size: cover;
+}
+h1, h3{
+    color: #ffffff;
+}
+button {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 900;
+}
+label {
+    opacity: 0;
+    transition: 0.5s;
+}
+button:hover label{
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#astra {
+    background-image: url("Astrosqu.png");
+    color: #8a2500;
+}
+#silvana {
+    background-image: url("Solvanasqu.png");
+    color: #01501e;
+}
+#atlantis {
+    background-image: url("Utlantussqu.png");
+    color: #002982;
+}
